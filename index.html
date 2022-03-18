@@ -1,12 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Perceptron</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/6.5.0/math.js"></script>
+
 </head>
+
 <body>
-    Hello there
+    <h1>Perceptron in JS</h1>
+    <p>Press <strong>train</strong> to see if the single-cell brain can learn what distinguishes a cat from a dog.</p>
+
+    <content>
+        <svg id="svg" version="1.1" baseProfile="full" width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+        </svg>
+        <br>
+
+        <button id="reset">RESET</button> &nbsp; <button id="start">TRAIN</button> &nbsp; <span id="ep">Epoch: 0</span>
+
+    </content>
+
+    <content>
+        <h2>Cat Dog Data</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hair color</th>
+                    <th>Body length</th>
+                    <th>Height</th>
+                    <th>Weight</th>
+                    <th>Ear length</th>
+                    <th>Claws</th>
+                    <th>Label</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>black</td>
+                    <td>18</td>
+                    <td>9.2</td>
+                    <td>8.1</td>
+                    <td>2</td>
+                    <td>true</td>
+                    <td>'cat'</td>
+                </tr>
+                <tr>
+                    <td>grey</td>
+                    <td>20.1</td>
+                    <td>17</td>
+                    <td>15.5</td>
+                    <td>5</td>
+                    <td>false</td>
+                    <td>'dog'</td>
+                </tr>
+                <tr>
+                    <td>orange</td>
+                    <td>17</td>
+                    <td>9.1</td>
+                    <td>9</td>
+                    <td>1.95</td>
+                    <td>true</td>
+                    <td>'cat'</td>
+                </tr>
+                <tr>
+                    <td>brown</td>
+                    <td>23.5</td>
+                    <td>20</td>
+                    <td>20</td>
+                    <td>6.2</td>
+                    <td>false</td>
+                    <td>'dog'</td>
+                </tr>
+                <tr>
+                    <td>white</td>
+                    <td>16</td>
+                    <td>9.0</td>
+                    <td>10</td>
+                    <td>2.1</td>
+                    <td>true</td>
+                    <td>'cat'</td>
+                </tr>
+                <tr>
+                    <td>black</td>
+                    <td>21</td>
+                    <td>16.7</td>
+                    <td>16</td>
+                    <td>3.3</td>
+                    <td>false</td>
+                    <td>'dog'</td>
+                </tr>
+            </tbody>
+        </table>
+    </content>
+
+
 </body>
+
 </html>

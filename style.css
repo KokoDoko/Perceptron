@@ -1,0 +1,60 @@
+html, body {
+    padding: 10px;
+    background-color: rgb(185, 212, 237);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.03em;
+}
+
+content {
+    display:block;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+h1, h2, h3, h4 {
+    margin-top: 0px;
+}
+
+code {
+    background-color: grey;
+    color: white;
+    display: block;
+    padding: 10px;
+    font-size: 1.05em;
+}
+
+button {
+    font-size: 22px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+button:focus {
+    outline: 0;
+}
+
+svg {
+    fill: white;
+}
+
+.input, .output {
+    fill: #1c60a9;
+}
+
+.label {
+    font-size: "40";
+    fill: #1c60a9;
+}
+
+.weight {
+    stroke: #82aac9;
+    stroke-width: 5;
+}
+
+.inputcontent {
+    font-size: "40";
+    fill: white;
+    text-anchor: "middle";
+}

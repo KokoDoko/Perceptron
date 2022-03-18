@@ -49,6 +49,6 @@ let weird_animaltwo = [0.9, 0.4, 0.4, 0.2, 0]
 console.log(perceptron.test(weird_animaltwo))   // should be near 0 because dog has no claws
 ```
 
-### Big thanks:
+### Big thanks
 
 - [Create a Perceptron in Javascript by Fun Fun Function](https://youtu.be/o98qlvrcqiU)
