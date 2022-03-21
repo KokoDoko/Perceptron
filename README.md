@@ -4,7 +4,9 @@
 
 https://kokodoko.github.io/perceptron/
 
-This code uses SVG to visualise how a `perceptron` learns. The perceptron learns what exactly distinguishes a cat from a dog, using the following data.
+This code uses SVG to visualise how a `perceptron` learns. This example perceptron learns what distinguishes a cat from a dog, using the following data.
+
+![svg](./perceptron-svg.png)
 
 ### Cat or dog?
 
